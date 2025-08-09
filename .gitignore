@@ -41,8 +41,10 @@ node_modules/
 # Optional stylelint cache
 .stylelintcache
 
-#add files in dist folder to git index for gh-pages branch
-dist 
+dist
+
+# copy of dist folder content for gh-pages
+docs
 
 # playwright
 **/test-results
