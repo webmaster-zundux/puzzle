@@ -8,6 +8,7 @@
     "dev:with-logging-frequently-used-files": "vite --debug transform",
     "start": "vite",
     "build": "vite build",
+    "build:gh-pages": "vite build && cp -r dist docs && git add docs",
     "build:with-type-safe": "tsc && vite build",
     "preview": "vite preview",
     "preview-coverage": "vite preview -c vite-coverage-preview.config.ts",
