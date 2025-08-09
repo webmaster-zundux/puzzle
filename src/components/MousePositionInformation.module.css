@@ -1,0 +1,16 @@
+.MousePositionLabel {
+  display: flex;
+  gap: 1em;
+  color: var(--text-color-white);
+  text-shadow: 0 0 0.1em black;
+}
+
+.MousePositionLabelHeader {
+  text-decoration: underline;
+}
+
+.TextForLightBackground {
+  font-weight: 500;
+  color: var(--text-color-default);
+  text-shadow: none;
+}

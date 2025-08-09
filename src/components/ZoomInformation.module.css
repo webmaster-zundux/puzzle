@@ -1,0 +1,10 @@
+.ZoomLabel {
+  color: var(--text-color-white);
+  text-shadow: 0 0 0.1em black;
+}
+
+.TextForLightBackground {
+  font-weight: 500;
+  color: var(--text-color-default);
+  text-shadow: none;
+}

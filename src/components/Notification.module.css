@@ -1,0 +1,12 @@
+.Notification {
+  position: absolute;
+  top: 5em;
+  left: 50%;
+  display: flex;
+  padding: 1em 3em;
+  margin: 0 auto;
+  background: var(--background-color-default);
+  border-radius: var(--modal-dialog-card-border-radius);
+  box-shadow: 0.1em 0.1em 0.5em rgb(0 0 0 / 20%);
+  translate: -50%;
+}

@@ -1,0 +1,50 @@
+.SideControlHandle {
+  width: 2em;
+  height: 2em;
+  fill: transparent;
+  transform: translate(-1em, -1em);
+}
+
+.SideControlVisualMarker {
+  width: 2em;
+  height: 0.2em;
+  fill: #7cf760;
+  transition: all ease;
+  transform: translate(-1em, -0.1em);
+}
+
+.SideControlVisualMarker.Vertical {
+  width: 0.2em;
+  height: 2em;
+  transform: translate(-0.1em, -1em);
+}
+
+.SideControlContainer:hover .SideControlVisualMarker,
+.SideControlContainer.Active .SideControlVisualMarker {
+  width: 2em;
+  height: 0.4em;
+  transform: translate(-1em, -0.2em);
+}
+
+.SideControlContainer:hover .SideControlVisualMarker.Vertical,
+.SideControlContainer.Active .SideControlVisualMarker.Vertical {
+  width: 0.4em;
+  height: 2em;
+  transform: translate(-0.2em, -1em);
+}
+
+.SideControlContainer.T {
+  cursor: n-resize;
+}
+
+.SideControlContainer.B {
+  cursor: s-resize;
+}
+
+.SideControlContainer.L {
+  cursor: w-resize;
+}
+
+.SideControlContainer.R {
+  cursor: e-resize;
+}

@@ -1,0 +1,214 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`src/__tests__/modals/modal.selecting-demo-image.test.tsx > modal dialog "choose a demo image to create a puzzle" > changes it's visibility state > closes when clicking on "close" button: without dialog 1`] = `
+"Snapshot Diff:
+Compared values have no visual difference."
+`;
+
+exports[`src/__tests__/modals/modal.selecting-demo-image.test.tsx > modal dialog "choose a demo image to create a puzzle" > changes it's visibility state > closes when clicking on the dialog backdrop: without dialog 1`] = `
+"Snapshot Diff:
+Compared values have no visual difference."
+`;
+
+exports[`src/__tests__/modals/modal.selecting-demo-image.test.tsx > modal dialog "choose a demo image to create a puzzle" > changes it's visibility state > closes when pressing on "esc" key: without dialog 1`] = `
+"Snapshot Diff:
+Compared values have no visual difference."
+`;
+
+exports[`src/__tests__/modals/modal.selecting-demo-image.test.tsx > modal dialog "choose a demo image to create a puzzle" > changes it's visibility state > opens when clicking on "demo images" link in "choose method to create puzzle" dialog: "selecting demo image" dialog 1`] = `
+"Snapshot Diff:
+- without dialog
++ with dialog
+
+@@ -453,6 +453,190 @@
+            </div>
+          </div>
+        </aside>
+      </main>
+    </div>
++   <div>
++     <div
++       aria-label="Choose a demo image"
++       aria-modal="true"
++       class="_Dialog_9b989f _DialogAsDiv_9b989f"
++       role="dialog"
++     >
++       <div
++         class="_DialogBodyContainer_9b989f"
++       >
++         <div
++           aria-hidden="true"
++           aria-label="modal-backdrop"
++           class="_Backdrop_9b989f"
++         />
++         <div
++           class="_DialogBody_9b989f _WithCardForContent_9b989f"
++         >
++           <div
++             class="_CloseIcon_bea9a0"
++           >
++             <button
++               aria-label="close"
++               class="_ActionButton_b70b4c _NoBackground_b70b4c _NoBorder_b70b4c"
++               type="button"
++             >
++               <div
++                 class="_Icon_14488b _DoubleSize_14488b"
++                 data-src="/assets/fa-icons/xmark.svg"
++               >
++                 inline-svg-icon-mock
++               </div>
++             </button>
++           </div>
++           <div
++             class="_DialogContent_9b989f"
++           >
++             <div
++               class="_Content_a024cf"
++             >
++               <h3
++                 class="_Title_a024cf"
++               >
++                 Choose a demo image
++               </h3>
++               <div
++                 class="_MainContent_a024cf"
++               >
++                 <form
++                   class="_Form_bc14b1"
++                 >
++                   <ul
++                     class="_ImageList_bc14b1"
++                   >
++                     <li
++                       class="_ImageListItem_bc14b1"
++                     >
++                       <div
++                         class="_ImageThumbnailContainer_5c0cbc"
++                       >
++                         <button
++                           class="_ActionButton_b70b4c"
++                           style="padding: 0.5em;"
++                           type="button"
++                         >
++                           <img
++                             alt="/demo-images/demo-image-1920x1080.png"
++                             class="_Thumbnail_5c0cbc"
++                             src="/demo-images/demo-image-1920x1080.png"
++                           />
++                         </button>
++                         <div
++                           class="_ImageHumanizedName_5c0cbc"
++                         >
++                           demo image 1920x1080
++                         </div>
++                         <div
++                           class="_ImageSourceLink_5c0cbc"
++                         >
++                           <span>
++                             Image link:
++                           </span>
++                            
++                           <a
++                             href="/demo-images/demo-image-1920x1080.png"
++                             target="__blank"
++                           >
++                             /demo-images/demo-image-1920x1080.png
++                           </a>
++                         </div>
++                       </div>
++                     </li>
++                     <li
++                       class="_ImageListItem_bc14b1"
++                     >
++                       <div
++                         class="_ImageThumbnailContainer_5c0cbc"
++                       >
++                         <button
++                           class="_ActionButton_b70b4c"
++                           style="padding: 0.5em;"
++                           type="button"
++                         >
++                           <img
++                             alt="/demo-images/demo-image-1080x1920.png"
++                             class="_Thumbnail_5c0cbc"
++                             src="/demo-images/demo-image-1080x1920.png"
++                           />
++                         </button>
++                         <div
++                           class="_ImageHumanizedName_5c0cbc"
++                         >
++                           demo image 1080x1920
++                         </div>
++                         <div
++                           class="_ImageSourceLink_5c0cbc"
++                         >
++                           <span>
++                             Image link:
++                           </span>
++                            
++                           <a
++                             href="/demo-images/demo-image-1080x1920.png"
++                             target="__blank"
++                           >
++                             /demo-images/demo-image-1080x1920.png
++                           </a>
++                         </div>
++                       </div>
++                     </li>
++                   </ul>
++                   <div
++                     class="_FormFooter_bc14b1"
++                   >
++                     <div
++                       class="_ActionButtonList_bc14b1"
++                     >
++                       <button
++                         class="_ActionButton_b70b4c _ModalActionButton_b70b4c"
++                         type="button"
++                       >
++                         Choose another image
++                       </button>
++                       <button
++                         class="_ActionButton_b70b4c _PrimaryButton_b70b4c _ModalActionButton_b70b4c"
++                         disabled=""
++                         type="submit"
++                       >
++                         Use selected image
++                       </button>
++                     </div>
++                     <div
++                       aria-label="alternative way to load an image"
++                       class="_Note_51962b"
++                       role="note"
++                     >
++                       also you can 
++                       <a
++                         class="_NoteLink_edcc23"
++                         href="#"
++                       >
++                         upload an image from device
++                       </a>
++                        
++                       <br />
++                       or 
++                       <a
++                         class="_NoteLink_edcc23"
++                         href="#"
++                       >
++                         load an image from a link
++                       </a>
++                        
++                       <br />
++                     </div>
++                   </div>
++                 </form>
++               </div>
++             </div>
++           </div>
++         </div>
++       </div>
++     </div>
++   </div>
+  </DocumentFragment>"
+`;

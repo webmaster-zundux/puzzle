@@ -1,0 +1,165 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`src/__tests__/notification.congratulation.test.tsx > "congratulation" notification > changes it's visibility state > displays when a puzzle becomes solved: "congratulation" notification 1`] = `
+"Snapshot Diff:
+- without notification
++ with notification
+
+@@ -14,10 +14,53 @@
+            class="_Canvas_72d137"
+            id="canvas"
+            role="application"
+          />
+          <div
++           aria-label="puzzle was solved"
++           class="_Notification_668b1d"
++           role="note"
++         >
++           <div
++             aria-label="puzzle was solved"
++             class="_Container_af0fbb"
++             role="alert"
++           >
++             <div
++               class="_Header_af0fbb"
++             >
++               Congratulation!
++             </div>
++             <div
++               class="_Spacer_af0fbb"
++             >
++                
++             </div>
++             <div
++               class="_Message_af0fbb"
++             >
++               Puzzle was solved
++             </div>
++           </div>
++           <div
++             class="_CloseIcon_bea9a0"
++           >
++             <button
++               aria-label="close"
++               class="_ActionButton_b70b4c _NoBackground_b70b4c _NoBorder_b70b4c"
++               type="button"
++             >
++               <div
++                 class="_Icon_14488b _DoubleSize_14488b"
++                 data-src="/assets/fa-icons/xmark.svg"
++               >
++                 inline-svg-icon-mock
++               </div>
++             </button>
++           </div>
++         </div>
++         <div
+            class="_FloatingInfoLabel_72d137"
+          >
+            <div
+              class="_ZoomLabel_aa5be1"
+            >
+@@ -174,11 +217,11 @@
+                class="_Label_59689d"
+              >
+                Time:
+              </div>
+              <time
+-               class="_PassedTime_59689d _TimerIsPaused_59689d"
++               class="_PassedTime_59689d"
+                datetime="PT0S"
+                title="elapsed time"
+              >
+                0:00
+              </time>
+@@ -195,22 +238,21 @@
+                  class="_Label_ae1a35"
+                >
+                  Progress:
+                </div>
+                <div
+-                 class="_Value_ae1a35 _ZeroValue_ae1a35"
++                 class="_Value_ae1a35"
+                >
+-                 0%
++                 100%
+                </div>
+              </div>
+              <div
+                class="_ActionButtons_ae1a35"
+              >
+                <button
+                  aria-label="restart puzzle"
+                  class="_ActionButton_b70b4c"
+-                 disabled=""
+                  title="restart puzzle"
+                  type="button"
+                >
+                  <div
+                    class="_Icon_14488b""
+`;
+
+exports[`src/__tests__/notification.congratulation.test.tsx > "congratulation" notification > changes it's visibility state > hides when a puzzle restarts: without notification 1`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+@@ -447,11 +447,11 @@
+            </div>
+            <div
+              aria-labelledby="challenge-seed-label"
+              role="note"
+            >
+-             364bf6d0-6686-4892-be7d-618ac2fcdcc7
++             b47663e4-95ab-4472-9344-0f165a6a7ff9
+            </div>
+          </div>
+        </aside>
+      </main>
+    </div>"
+`;
+
+exports[`src/__tests__/notification.congratulation.test.tsx > "congratulation" notification > changes it's visibility state > hides when clicking on "close" button: without notification 1`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+@@ -174,11 +174,11 @@
+                class="_Label_59689d"
+              >
+                Time:
+              </div>
+              <time
+-               class="_PassedTime_59689d _TimerIsPaused_59689d"
++               class="_PassedTime_59689d"
+                datetime="PT0S"
+                title="elapsed time"
+              >
+                0:00
+              </time>
+@@ -195,22 +195,21 @@
+                  class="_Label_ae1a35"
+                >
+                  Progress:
+                </div>
+                <div
+-                 class="_Value_ae1a35 _ZeroValue_ae1a35"
++                 class="_Value_ae1a35"
+                >
+-                 0%
++                 100%
+                </div>
+              </div>
+              <div
+                class="_ActionButtons_ae1a35"
+              >
+                <button
+                  aria-label="restart puzzle"
+                  class="_ActionButton_b70b4c"
+-                 disabled=""
+                  title="restart puzzle"
+                  type="button"
+                >
+                  <div
+                    class="_Icon_14488b""
+`;

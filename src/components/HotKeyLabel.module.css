@@ -1,0 +1,7 @@
+.HotKeyLabel kbd {
+  padding: 0 0.5em 0.1em;
+  font-style: normal;
+  background-color: var(--background-color-default);
+  border: 1px solid gray;
+  border-radius: calc(var(--modal-dialog-card-border-radius) * 2);
+}

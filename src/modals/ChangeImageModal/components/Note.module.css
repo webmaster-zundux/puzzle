@@ -1,0 +1,15 @@
+.Note {
+  gap: 0.3em;
+  align-self: flex-start;
+  font-size: 0.84em;
+  font-style: italic;
+}
+
+.Note.AsText {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.Note.NoHorizontalGap {
+  column-gap: 0;
+}

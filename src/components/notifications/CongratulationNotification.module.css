@@ -1,0 +1,19 @@
+.Container {
+  display: flex;
+  flex-direction: column;
+}
+
+.Header {
+  font-size: 1.4em;
+  font-weight: bold;
+  text-align: center;
+}
+
+.Message {
+  font-weight: normal;
+  text-align: center;
+}
+
+.Spacer {
+  height: 0.5em;
+}

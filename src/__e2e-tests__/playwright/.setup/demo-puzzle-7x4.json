@@ -1,0 +1,18 @@
+{
+  "cookies": [],
+  "origins": [
+    {
+      "origin": "https://localhost:5173",
+      "localStorage": [
+        {
+          "name": "debugSettings",
+          "value": "{\"experimentalUseNativeSmoothingQualityMethod\":true,\"debugSettingsUseSolvedPuzzlePiecesPositionsMultipliedBy2AsInitialPiecesPositions\":false,\"drawEdgeBevelHighlightAndShadow\":true,\"showCanvasPerfomanceMonitor\":false,\"debugSettingsShouldPrintPuzzleRenderTime\":false,\"debugSettingsShouldPrintPuzzleRenderTimeForFirstRender\":false,\"debugSettingsShouldPrintPuzzleCreationTime\":false,\"showDebugTextureCacheCanvas\":false,\"showDebugInfoForTextureCacheCanvas\":false,\"showDebugInfoForTextureCanvas\":false,\"debugSettingsShouldDrawCenterOfWorld\":false,\"debugSettingsShouldDrawPuzzleBoundaryPoints\":false,\"debugSettingsShouldDrawCameraPosition\":false,\"debugSettingsShouldDrawMousePosition\":false,\"debugSettingsShouldDrawCameraViewportCenterPosition\":false,\"debugSettingsShouldDrawDebugInfoForMarksForDirectionToPositionOutsideCameraViewport\":false,\"useHitCounterForPieceShapePath\":false,\"exposeHitCounterForPieceShapePathToWindowObject\":false,\"useHitCounterForPieceMaskPath\":false,\"exposeHitCounterForPieceMaskPathToWindowObject\":false}"
+        },
+        {
+          "name": "puzzleInformation",
+          "value": "{\"name\":\"puzzle name\",\"challengeId\":\"fcf87673-5264-4763-bdc3-092f29d9b05f\",\"numberOfPiecesPerWidth\":7,\"numberOfPiecesPerHeight\":4,\"pieceWidth\":50,\"connectionActivationAreaSideSizeFractionFromPieceSideSize\":0.2,\"imageSrc\":\"/demo-images/demo-image-1920x1080.png\",\"imageOriginalSize\":{\"width\":0,\"height\":0},\"boundaryPoints\":{\"tl\":{\"x\":0,\"y\":0},\"br\":{\"x\":1890,\"y\":1080}},\"piecesPositions\":[],\"timeSpent\":0,\"pieceSideShapeName\":\"UNDERGROUND_RIVER_CIRCLE_BOTTOM_IN_ERODED_HILL\",\"isSidebarOpen\":true,\"canvasBackgroundColor\":\"dark-slate-gray\"}"
+        }
+      ]
+    }
+  ]
+}

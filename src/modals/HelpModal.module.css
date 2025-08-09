@@ -1,0 +1,51 @@
+.Title {
+  padding: 0;
+  margin: 0 0 0.25em;
+  font-size: var(--font-size-modal-title);
+  font-weight: bold;
+  line-height: 1.3em;
+}
+
+.Content {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  align-items: center;
+  min-width: 10em;
+  max-width: 20em;
+  max-height: 100%;
+  overflow: auto;
+}
+
+.ActionButtonList {
+  display: flex;
+  flex-flow: row wrap;
+  gap: 0.5em;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.ActionButtonList.Centered {
+  justify-content: center;
+}
+
+.InterfaceScreenshotContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.InterfaceScreenshot {
+  display: flex;
+}
+
+.InterfaceScreenshotLegendLabel {
+  display: flex;
+}
+
+.AnimatedPuzzleSolvingGifContainer {
+  display: flex;
+}
+
+.AnimatedPuzzleSolvingGif {
+  display: flex;
+}

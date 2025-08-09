@@ -1,0 +1,29 @@
+.ChallengeTimer {
+  display: flex;
+  gap: 0.5em;
+  align-items: center;
+  padding: 0.5em;
+  background-color: white;
+  border-radius: var(--small-info-panels-border-radius);
+}
+
+.Label {
+  color: gray;
+}
+
+.PassedTime {
+  position: relative;
+  display: flex;
+  flex-grow: 1;
+  overflow: hidden;
+  text-align: center;
+}
+
+.PassedTime.TimerIsPaused {
+  color: gray;
+}
+
+.ActionButtons {
+  display: flex;
+  gap: 0.25em;
+}

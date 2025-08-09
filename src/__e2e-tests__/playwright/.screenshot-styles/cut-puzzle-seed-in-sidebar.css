@@ -1,0 +1,15 @@
+[aria-label="sidebar"] [aria-labelledby="challenge-seed-label"] {
+  position: relative;
+}
+
+[aria-label="sidebar"] [aria-labelledby="challenge-seed-label"]::before {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  color: white;
+  content: "redacted";
+  background-color: black;
+}

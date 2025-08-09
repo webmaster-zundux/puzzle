@@ -1,0 +1,32 @@
+.ImageFromFileForm {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5em;
+}
+
+.UploadFileField {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3em;
+  font-size: 0.9em;
+  font-weight: 500;
+}
+
+.UploadButton {
+  display: flex;
+  flex-direction: column;
+  gap: 0.1em;
+  align-items: center;
+  justify-content: center;
+  min-width: 10em;
+  min-height: 10em;
+  padding: 2em;
+  background-color: rgb(255 255 255);
+  border: 0.2em dashed gray;
+  border-radius: var(--modal-dialog-card-border-radius);
+}
+
+.UploadButton:hover,
+.UploadButton:focus {
+  background-color: var(--accent-color);
+}

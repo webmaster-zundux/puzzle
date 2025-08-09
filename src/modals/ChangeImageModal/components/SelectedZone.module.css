@@ -1,0 +1,21 @@
+.SelectedZone {
+  position: absolute;
+  width: auto;
+  max-width: 100%;
+  height: auto;
+  max-height: 100%;
+  overflow: visible;
+  fill: rgb(0 0 0 / 60%);
+}
+
+.SelectedZoneBorder {
+  fill: transparent;
+  stroke: #7cf760;
+  stroke-dasharray: 0.5em 0.8em;
+  stroke-linecap: round;
+  stroke-width: 0.1em;
+}
+
+.SelectedZone:hover .SelectedZoneBorder {
+  opacity: 0.5;
+}

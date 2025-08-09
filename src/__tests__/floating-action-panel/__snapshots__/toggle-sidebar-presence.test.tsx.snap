@@ -1,0 +1,710 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`src/__tests__/floating-action-panel/toggle-sidebar-presence.test.tsx > floating action panel > toggle sidebar presence > hides the sidebar when clicking on "hide side panel" button: hidden sidebar 1`] = `
+"Snapshot Diff:
+- with visible sidebar
++ with hidden sidebar
+
+@@ -118,341 +118,23 @@
+                </div>
+              </button>
+            </li>
+            <li>
+              <button
+-               aria-label="hide side panel"
++               aria-label="show side panel"
+                class="_ActionButton_b70b4c _DoubleSized_b70b4c"
+-               title="hide side panel"
++               title="show side panel"
+                type="button"
+              >
+                <div
+                  class="_Icon_14488b _DoubleSize_14488b"
+-                 data-src="/assets/fa-icons/xmark.svg"
+-               >
+-                 inline-svg-icon-mock
+-               </div>
+-             </button>
+-           </li>
+-         </ul>
+-       </div>
+-       <aside
+-         aria-label="sidebar"
+-         class="_SidePanel_bb1291 _Visible_bb1291"
+-       >
+-         <div
+-           class="_PuzzleInformation_08c4ca"
+-         >
+-           <div
+-             class="_ImageContainer_08c4ca"
+-           >
+-             <canvas
+-               class="_Preview_08c4ca"
+-               title="puzzle preview"
+-             />
+-           </div>
+-           <div
+-             class="_AdditionalInformation_08c4ca"
+-           >
+-             <div
+-               aria-label="pieces info"
+-               class="_PiecesInformation_08c4ca"
+-               role="note"
+-             >
+-               28 pieces (7x4)
+-             </div>
+-           </div>
+-         </div>
+-         <div
+-           class="_ChallengeStats_f6fa62"
+-         >
+-           <div
+-             aria-label="elapsed time"
+-             class="_ChallengeTimer_59689d"
+-             role="note"
+-           >
+-             <div
+-               class="_Label_59689d"
+-             >
+-               Time:
+-             </div>
+-             <time
+-               class="_PassedTime_59689d _TimerIsPaused_59689d"
+-               datetime="PT0S"
+-               title="elapsed time"
+-             >
+-               0:00
+-             </time>
+-           </div>
+-           <div
+-             class="_Container_ae1a35"
+-           >
+-             <div
+-               aria-label="challenge progress"
+-               class="_Information_ae1a35"
+-               role="note"
+-             >
+-               <div
+-                 class="_Label_ae1a35"
+-               >
+-                 Progress:
+-               </div>
+-               <div
+-                 class="_Value_ae1a35 _ZeroValue_ae1a35"
+-               >
+-                 0%
+-               </div>
+-             </div>
+-             <div
+-               class="_ActionButtons_ae1a35"
++                 data-src="/assets/fa-icons/bars.svg"
+                >
+-               <button
+-                 aria-label="restart puzzle"
+-                 class="_ActionButton_b70b4c"
+-                 disabled=""
+-                 title="restart puzzle"
+-                 type="button"
+-               >
+-                 <div
+-                   class="_Icon_14488b"
+-                   data-src="/assets/fa-icons/arrow-rotate-left.svg"
+-                 >
+                  inline-svg-icon-mock
+                </div>
+              </button>
+-             </div>
+-           </div>
+-         </div>
+-         <div
+-           class="_CanvasBackgroundColor_073518"
+-         >
+-           <div
+-             class="_CanvasBackgroundColorTitle_073518"
+-             id="background-color-label"
+-           >
+-             Background color
+-           </div>
+-           <ul
+-             aria-labelledby="background-color-label"
+-             class="_ColorList_073518 _ColorListAsRow_073518"
+-           >
+-             <li
+-               class="_ColorListItem_073518"
+-             >
+-               <div
+-                 class="_ColoredRadioButton_dbcdbf"
+-               >
+-                 <input
+-                   aria-label="white"
+-                   class="_ColoredRadioButtonInput_dbcdbf"
+-                   id="white"
+-                   name="canvas-background-color"
+-                   type="radio"
+-                   value="white"
+-                 />
+-                 <label
+-                   class="_ColoredRadioButtonLabel_dbcdbf"
+-                   for="white"
+-                   style="background-color: white;"
+-                   title="white"
+-                 />
+-               </div>
+-             </li>
+-             <li
+-               class="_ColorListItem_073518"
+-             >
+-               <div
+-                 class="_ColoredRadioButton_dbcdbf"
+-               >
+-                 <input
+-                   aria-label="mint cream"
+-                   class="_ColoredRadioButtonInput_dbcdbf"
+-                   id="mint-cream"
+-                   name="canvas-background-color"
+-                   type="radio"
+-                   value="mint-cream"
+-                 />
+-                 <label
+-                   class="_ColoredRadioButtonLabel_dbcdbf"
+-                   for="mint-cream"
+-                   style="background-color: mintcream;"
+-                   title="mint cream"
+-                 />
+-               </div>
+-             </li>
+-             <li
+-               class="_ColorListItem_073518"
+-             >
+-               <div
+-                 class="_ColoredRadioButton_dbcdbf"
+-               >
+-                 <input
+-                   aria-label="teal"
+-                   class="_ColoredRadioButtonInput_dbcdbf"
+-                   id="teal"
+-                   name="canvas-background-color"
+-                   type="radio"
+-                   value="teal"
+-                 />
+-                 <label
+-                   class="_ColoredRadioButtonLabel_dbcdbf"
+-                   for="teal"
+-                   style="background-color: teal;"
+-                   title="teal"
+-                 />
+-               </div>
+-             </li>
+-             <li
+-               class="_ColorListItem_073518"
+-             >
+-               <div
+-                 class="_ColoredRadioButton_dbcdbf"
+-               >
+-                 <input
+-                   aria-label="dim grey"
+-                   class="_ColoredRadioButtonInput_dbcdbf"
+-                   id="dim-grey"
+-                   name="canvas-background-color"
+-                   type="radio"
+-                   value="dim-grey"
+-                 />
+-                 <label
+-                   class="_ColoredRadioButtonLabel_dbcdbf"
+-                   for="dim-grey"
+-                   style="background-color: dimgrey;"
+-                   title="dim grey"
+-                 />
+-               </div>
+-             </li>
+-             <li
+-               class="_ColorListItem_073518"
+-             >
+-               <div
+-                 class="_ColoredRadioButton_dbcdbf"
+-               >
+-                 <input
+-                   aria-label="slate grey"
+-                   class="_ColoredRadioButtonInput_dbcdbf"
+-                   id="slate-grey"
+-                   name="canvas-background-color"
+-                   type="radio"
+-                   value="slate-grey"
+-                 />
+-                 <label
+-                   class="_ColoredRadioButtonLabel_dbcdbf"
+-                   for="slate-grey"
+-                   style="background-color: slategrey;"
+-                   title="slate grey"
+-                 />
+-               </div>
+            </li>
+-             <li
+-               class="_ColorListItem_073518"
+-             >
+-               <div
+-                 class="_ColoredRadioButton_dbcdbf"
+-               >
+-                 <input
+-                   aria-label="dark slate gray"
+-                   checked=""
+-                   class="_ColoredRadioButtonInput_dbcdbf"
+-                   id="dark-slate-gray"
+-                   name="canvas-background-color"
+-                   type="radio"
+-                   value="dark-slate-gray"
+-                 />
+-                 <label
+-                   class="_ColoredRadioButtonLabel_dbcdbf"
+-                   for="dark-slate-gray"
+-                   style="background-color: darkslategray;"
+-                   title="dark slate gray"
+-                 />
+-               </div>
+-             </li>
+-             <li
+-               class="_ColorListItem_073518"
+-             >
+-               <div
+-                 class="_ColoredRadioButton_dbcdbf"
+-               >
+-                 <input
+-                   aria-label="black"
+-                   class="_ColoredRadioButtonInput_dbcdbf"
+-                   id="black"
+-                   name="canvas-background-color"
+-                   type="radio"
+-                   value="black"
+-                 />
+-                 <label
+-                   class="_ColoredRadioButtonLabel_dbcdbf"
+-                   for="black"
+-                   style="background-color: black;"
+-                   title="black"
+-                 />
+-               </div>
+-             </li>
+          </ul>
+-         </div>
+-         <div
+-           class="_Spacer_18598a"
+-         />
+-         <button
+-           class="_ActionButton_b70b4c _SidebarActionButton_b70b4c"
+-           type="button"
+-         >
+-           Solve puzzle again
+-         </button>
+-         <button
+-           class="_ActionButton_b70b4c _SidebarActionButton_b70b4c"
+-           type="button"
+-         >
+-           Change number of pieces
+-         </button>
+-         <button
+-           class="_ActionButton_b70b4c _SidebarActionButton_b70b4c"
+-           type="button"
+-         >
+-           Change image
+-         </button>
+-         <button
+-           class="_ActionButton_b70b4c _SidebarActionButton_b70b4c"
+-           type="button"
+-         >
+-           Change piece shape
+-         </button>
+-         <button
+-           class="_ActionButton_b70b4c _SidebarActionButton_b70b4c"
+-           type="button"
+-         >
+-           Help
+-         </button>
+-         <hr
+-           class="_Separator_815447"
+-         />
+-         <button
+-           class="_ActionButton_b70b4c _SidebarActionButton_b70b4c"
+-           type="button"
+-         >
+-           Debug Settings
+-         </button>
+-         <hr
+-           class="_Separator_815447"
+-         />
+-         <div
+-           class="_SeedLabel_d9afea"
+-         >
+-           <div
+-             id="challenge-seed-label"
+-           >
+-             challenge seed: 
+        </div>
+-           <div
+-             aria-labelledby="challenge-seed-label"
+-             role="note"
+-           >
+-             364bf6d0-6686-4892-be7d-618ac2fcdcc7
+-           </div>
+-         </div>
+-       </aside>
+      </main>
+    </div>
+  </DocumentFragment>"
+`;
+
+exports[`src/__tests__/floating-action-panel/toggle-sidebar-presence.test.tsx > floating action panel > toggle sidebar presence > shows the sidebar when clicking on "show side panel" button: initial and shown again sidebar renders 1`] = `
+"Snapshot Diff:
+Compared values have no visual difference."
+`;
+
+exports[`src/__tests__/floating-action-panel/toggle-sidebar-presence.test.tsx > floating action panel > toggle sidebar presence > shows the sidebar when clicking on "show side panel" button: visible sidebar 1`] = `
+"Snapshot Diff:
+- with hidden sidebar
++ with visible sidebar
+
+@@ -118,23 +118,341 @@
+                </div>
+              </button>
+            </li>
+            <li>
+              <button
+-               aria-label="show side panel"
++               aria-label="hide side panel"
+                class="_ActionButton_b70b4c _DoubleSized_b70b4c"
+-               title="show side panel"
++               title="hide side panel"
+                type="button"
+              >
+                <div
+                  class="_Icon_14488b _DoubleSize_14488b"
+-                 data-src="/assets/fa-icons/bars.svg"
++                 data-src="/assets/fa-icons/xmark.svg"
++               >
++                 inline-svg-icon-mock
++               </div>
++             </button>
++           </li>
++         </ul>
++       </div>
++       <aside
++         aria-label="sidebar"
++         class="_SidePanel_bb1291 _Visible_bb1291"
++       >
++         <div
++           class="_PuzzleInformation_08c4ca"
++         >
++           <div
++             class="_ImageContainer_08c4ca"
++           >
++             <canvas
++               class="_Preview_08c4ca"
++               title="puzzle preview"
++             />
++           </div>
++           <div
++             class="_AdditionalInformation_08c4ca"
++           >
++             <div
++               aria-label="pieces info"
++               class="_PiecesInformation_08c4ca"
++               role="note"
++             >
++               28 pieces (7x4)
++             </div>
++           </div>
++         </div>
++         <div
++           class="_ChallengeStats_f6fa62"
++         >
++           <div
++             aria-label="elapsed time"
++             class="_ChallengeTimer_59689d"
++             role="note"
++           >
++             <div
++               class="_Label_59689d"
++             >
++               Time:
++             </div>
++             <time
++               class="_PassedTime_59689d _TimerIsPaused_59689d"
++               datetime="PT0S"
++               title="elapsed time"
++             >
++               0:00
++             </time>
++           </div>
++           <div
++             class="_Container_ae1a35"
++           >
++             <div
++               aria-label="challenge progress"
++               class="_Information_ae1a35"
++               role="note"
++             >
++               <div
++                 class="_Label_ae1a35"
++               >
++                 Progress:
++               </div>
++               <div
++                 class="_Value_ae1a35 _ZeroValue_ae1a35"
++               >
++                 0%
++               </div>
++             </div>
++             <div
++               class="_ActionButtons_ae1a35"
+              >
++               <button
++                 aria-label="restart puzzle"
++                 class="_ActionButton_b70b4c"
++                 disabled=""
++                 title="restart puzzle"
++                 type="button"
++               >
++                 <div
++                   class="_Icon_14488b"
++                   data-src="/assets/fa-icons/arrow-rotate-left.svg"
++                 >
+                    inline-svg-icon-mock
+                  </div>
+                </button>
++             </div>
++           </div>
++         </div>
++         <div
++           class="_CanvasBackgroundColor_073518"
++         >
++           <div
++             class="_CanvasBackgroundColorTitle_073518"
++             id="background-color-label"
++           >
++             Background color
++           </div>
++           <ul
++             aria-labelledby="background-color-label"
++             class="_ColorList_073518 _ColorListAsRow_073518"
++           >
++             <li
++               class="_ColorListItem_073518"
++             >
++               <div
++                 class="_ColoredRadioButton_dbcdbf"
++               >
++                 <input
++                   aria-label="white"
++                   class="_ColoredRadioButtonInput_dbcdbf"
++                   id="white"
++                   name="canvas-background-color"
++                   type="radio"
++                   value="white"
++                 />
++                 <label
++                   class="_ColoredRadioButtonLabel_dbcdbf"
++                   for="white"
++                   style="background-color: white;"
++                   title="white"
++                 />
++               </div>
++             </li>
++             <li
++               class="_ColorListItem_073518"
++             >
++               <div
++                 class="_ColoredRadioButton_dbcdbf"
++               >
++                 <input
++                   aria-label="mint cream"
++                   class="_ColoredRadioButtonInput_dbcdbf"
++                   id="mint-cream"
++                   name="canvas-background-color"
++                   type="radio"
++                   value="mint-cream"
++                 />
++                 <label
++                   class="_ColoredRadioButtonLabel_dbcdbf"
++                   for="mint-cream"
++                   style="background-color: mintcream;"
++                   title="mint cream"
++                 />
++               </div>
++             </li>
++             <li
++               class="_ColorListItem_073518"
++             >
++               <div
++                 class="_ColoredRadioButton_dbcdbf"
++               >
++                 <input
++                   aria-label="teal"
++                   class="_ColoredRadioButtonInput_dbcdbf"
++                   id="teal"
++                   name="canvas-background-color"
++                   type="radio"
++                   value="teal"
++                 />
++                 <label
++                   class="_ColoredRadioButtonLabel_dbcdbf"
++                   for="teal"
++                   style="background-color: teal;"
++                   title="teal"
++                 />
++               </div>
++             </li>
++             <li
++               class="_ColorListItem_073518"
++             >
++               <div
++                 class="_ColoredRadioButton_dbcdbf"
++               >
++                 <input
++                   aria-label="dim grey"
++                   class="_ColoredRadioButtonInput_dbcdbf"
++                   id="dim-grey"
++                   name="canvas-background-color"
++                   type="radio"
++                   value="dim-grey"
++                 />
++                 <label
++                   class="_ColoredRadioButtonLabel_dbcdbf"
++                   for="dim-grey"
++                   style="background-color: dimgrey;"
++                   title="dim grey"
++                 />
++               </div>
++             </li>
++             <li
++               class="_ColorListItem_073518"
++             >
++               <div
++                 class="_ColoredRadioButton_dbcdbf"
++               >
++                 <input
++                   aria-label="slate grey"
++                   class="_ColoredRadioButtonInput_dbcdbf"
++                   id="slate-grey"
++                   name="canvas-background-color"
++                   type="radio"
++                   value="slate-grey"
++                 />
++                 <label
++                   class="_ColoredRadioButtonLabel_dbcdbf"
++                   for="slate-grey"
++                   style="background-color: slategrey;"
++                   title="slate grey"
++                 />
++               </div>
+              </li>
++             <li
++               class="_ColorListItem_073518"
++             >
++               <div
++                 class="_ColoredRadioButton_dbcdbf"
++               >
++                 <input
++                   aria-label="dark slate gray"
++                   checked=""
++                   class="_ColoredRadioButtonInput_dbcdbf"
++                   id="dark-slate-gray"
++                   name="canvas-background-color"
++                   type="radio"
++                   value="dark-slate-gray"
++                 />
++                 <label
++                   class="_ColoredRadioButtonLabel_dbcdbf"
++                   for="dark-slate-gray"
++                   style="background-color: darkslategray;"
++                   title="dark slate gray"
++                 />
++               </div>
++             </li>
++             <li
++               class="_ColorListItem_073518"
++             >
++               <div
++                 class="_ColoredRadioButton_dbcdbf"
++               >
++                 <input
++                   aria-label="black"
++                   class="_ColoredRadioButtonInput_dbcdbf"
++                   id="black"
++                   name="canvas-background-color"
++                   type="radio"
++                   value="black"
++                 />
++                 <label
++                   class="_ColoredRadioButtonLabel_dbcdbf"
++                   for="black"
++                   style="background-color: black;"
++                   title="black"
++                 />
++               </div>
++             </li>
+            </ul>
++         </div>
++         <div
++           class="_Spacer_18598a"
++         />
++         <button
++           class="_ActionButton_b70b4c _SidebarActionButton_b70b4c"
++           type="button"
++         >
++           Solve puzzle again
++         </button>
++         <button
++           class="_ActionButton_b70b4c _SidebarActionButton_b70b4c"
++           type="button"
++         >
++           Change number of pieces
++         </button>
++         <button
++           class="_ActionButton_b70b4c _SidebarActionButton_b70b4c"
++           type="button"
++         >
++           Change image
++         </button>
++         <button
++           class="_ActionButton_b70b4c _SidebarActionButton_b70b4c"
++           type="button"
++         >
++           Change piece shape
++         </button>
++         <button
++           class="_ActionButton_b70b4c _SidebarActionButton_b70b4c"
++           type="button"
++         >
++           Help
++         </button>
++         <hr
++           class="_Separator_815447"
++         />
++         <button
++           class="_ActionButton_b70b4c _SidebarActionButton_b70b4c"
++           type="button"
++         >
++           Debug Settings
++         </button>
++         <hr
++           class="_Separator_815447"
++         />
++         <div
++           class="_SeedLabel_d9afea"
++         >
++           <div
++             id="challenge-seed-label"
++           >
++             challenge seed: 
+            </div>
++           <div
++             aria-labelledby="challenge-seed-label"
++             role="note"
++           >
++             364bf6d0-6686-4892-be7d-618ac2fcdcc7
++           </div>
++         </div>
++       </aside>
+      </main>
+    </div>
+  </DocumentFragment>"
+`;

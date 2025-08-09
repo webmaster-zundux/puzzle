@@ -1,0 +1,5 @@
+.PiecePlaceholder {
+  fill: rgb(125 125 125 / 60%);
+  stroke: purple;
+  stroke-width: 0.1em;
+}

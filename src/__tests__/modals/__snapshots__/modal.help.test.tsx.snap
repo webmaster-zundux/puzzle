@@ -1,0 +1,109 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`src/__tests__/modals/modal.help.test.tsx > "help" dialog > changes it's visibility state > closes when clicking on "close" button: without dialog 1`] = `
+"Snapshot Diff:
+Compared values have no visual difference."
+`;
+
+exports[`src/__tests__/modals/modal.help.test.tsx > "help" dialog > changes it's visibility state > closes when clicking on the dialog backdrop: without dialog 1`] = `
+"Snapshot Diff:
+Compared values have no visual difference."
+`;
+
+exports[`src/__tests__/modals/modal.help.test.tsx > "help" dialog > changes it's visibility state > closes when pressing on "esc" key: without dialog 1`] = `
+"Snapshot Diff:
+Compared values have no visual difference."
+`;
+
+exports[`src/__tests__/modals/modal.help.test.tsx > "help" dialog > changes it's visibility state > opens when clicking on "help" button in the sidebar: "help" dialog 1`] = `
+"Snapshot Diff:
+- without dialog
++ with dialog
+
+@@ -453,6 +453,85 @@
+            </div>
+          </div>
+        </aside>
+      </main>
+    </div>
++   <div>
++     <div
++       aria-label="Help"
++       aria-modal="true"
++       class="_Dialog_9b989f _DialogAsDiv_9b989f"
++       role="dialog"
++     >
++       <div
++         class="_DialogBodyContainer_9b989f"
++       >
++         <div
++           aria-hidden="true"
++           aria-label="modal-backdrop"
++           class="_Backdrop_9b989f"
++         />
++         <div
++           class="_DialogBody_9b989f _WithCardForContent_9b989f"
++         >
++           <div
++             class="_CloseIcon_bea9a0"
++           >
++             <button
++               aria-label="close"
++               class="_ActionButton_b70b4c _NoBackground_b70b4c _NoBorder_b70b4c"
++               type="button"
++             >
++               <div
++                 class="_Icon_14488b _DoubleSize_14488b"
++                 data-src="/assets/fa-icons/xmark.svg"
++               >
++                 inline-svg-icon-mock
++               </div>
++             </button>
++           </div>
++           <div
++             class="_DialogContent_9b989f"
++           >
++             <div
++               class="_Content_a024cf"
++             >
++               <h3
++                 class="_Title_a024cf"
++               >
++                 Help
++               </h3>
++               <div
++                 class="_MainContent_a024cf"
++               >
++                 <div
++                   class="_InterfaceScreenshotContainer_178972"
++                 >
++                   <div
++                     class="_InterfaceScreenshot_178972"
++                   >
++                     interface screenshots
++                   </div>
++                   <div
++                     class="_InterfaceScreenshotLegendLabel_178972"
++                   >
++                     legend label for screenshot
++                   </div>
++                 </div>
++                 <div
++                   class="_AnimatedPuzzleSolvingGifContainer_178972"
++                 >
++                   <img
++                     alt="animated puzzle solving gif"
++                     class="_AnimatedPuzzleSolvingGif_178972"
++                     src="#animated-puzzle-solving-gif"
++                     title="animated puzzle solving gif"
++                   />
++                 </div>
++               </div>
++             </div>
++           </div>
++         </div>
++       </div>
++     </div>
++   </div>
+  </DocumentFragment>"
+`;

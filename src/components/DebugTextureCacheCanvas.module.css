@@ -1,0 +1,40 @@
+.CanvasContainer {
+  position: relative;
+  display: flex;
+  flex: 1 1 auto;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.Canvas {
+  position: relative;
+  user-select: none;
+  background: #c5c5c5;
+}
+
+.InfoPanelContainer {
+  position: absolute;
+  bottom: 0;
+  display: flex;
+  width: 100%;
+}
+
+.InfoPanel {
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  justify-content: space-between;
+  width: 100%;
+  margin: 0 0.5em 0.5em;
+  font-size: 0.9em;
+}
+
+.SwitchingButtons {
+  display: flex;
+  gap: 0.2em;
+}
+
+.SwitchingButton {
+  padding: 0.2em 1em;
+  font-weight: bold;
+}

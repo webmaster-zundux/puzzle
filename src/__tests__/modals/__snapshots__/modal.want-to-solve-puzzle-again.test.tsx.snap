@@ -1,0 +1,26 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`src/__tests__/modals/modal.want-to-solve-puzzle-again.test.tsx > modal dialog "want to solve the puzzle again" > changes it's visibility state > closes and creates a new puzzle challenge (changes only pieces positions and the cutting of the pieces) when clicking on "solve again" button in the dialog: the second puzzle challenge 1`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+@@ -447,11 +447,11 @@
+            </div>
+            <div
+              aria-labelledby="challenge-seed-label"
+              role="note"
+            >
+-             b47663e4-95ab-4472-9344-0f165a6a7ff9
++             89e80c0c-186a-46db-b242-b147c88a2a3e
+            </div>
+          </div>
+        </aside>
+      </main>
+    </div>"
+`;
+
+exports[`src/__tests__/modals/modal.want-to-solve-puzzle-again.test.tsx > modal dialog "want to solve the puzzle again" > changes it's visibility state > closes when clicking on the dialog backdrop: without dialog 1`] = `
+"Snapshot Diff:
+Compared values have no visual difference."
+`;

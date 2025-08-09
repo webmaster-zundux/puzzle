@@ -1,0 +1,5 @@
+.PieceBorder {
+  filter: drop-shadow(1px 0 0 #888) drop-shadow(0 1px 0 #888);
+  stroke: purple;
+  stroke-width: 0.1em;
+}

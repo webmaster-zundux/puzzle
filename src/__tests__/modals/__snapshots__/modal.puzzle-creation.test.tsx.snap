@@ -1,0 +1,16 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`src/__tests__/modals/modal.puzzle-creation.test.tsx > modal dialog "puzzle creation" > changes it's visibility state > closes when clicking on "close" button: without dialog 1`] = `
+"Snapshot Diff:
+Compared values have no visual difference."
+`;
+
+exports[`src/__tests__/modals/modal.puzzle-creation.test.tsx > modal dialog "puzzle creation" > changes it's visibility state > closes when clicking on the dialog backdrop: without dialog 1`] = `
+"Snapshot Diff:
+Compared values have no visual difference."
+`;
+
+exports[`src/__tests__/modals/modal.puzzle-creation.test.tsx > modal dialog "puzzle creation" > changes it's visibility state > closes when pressing on "esc" key: without dialog 1`] = `
+"Snapshot Diff:
+Compared values have no visual difference."
+`;

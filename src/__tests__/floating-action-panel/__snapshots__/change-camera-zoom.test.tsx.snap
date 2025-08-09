@@ -1,0 +1,6 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`src/__tests__/floating-action-panel/change-camera-zoom.test.tsx > floating action panel > change camera zoom > by buttons in floating panel > sets zoom value equal canvas.width - 100px when pressing on "show all pieces" button: show all pieces 1`] = `
+"Snapshot Diff:
+Compared values have no visual difference."
+`;

@@ -1,0 +1,33 @@
+.CanvasBackgroundColor {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.CanvasBackgroundColorTitle {
+  margin-bottom: 0.25em;
+  font-size: 0.9em;
+}
+
+.CanvasBackgroundColorTitle::first-letter {
+  text-transform: capitalize;
+}
+
+.ColorList {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 0.1em;
+  border-radius: var(--small-info-panels-border-radius);
+}
+
+.ColorListItem {
+  position: relative;
+}
+
+.ColorListAsRow {
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0.5em;
+  background-color: lightgrey;
+}

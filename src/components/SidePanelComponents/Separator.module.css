@@ -1,0 +1,6 @@
+.Separator {
+  box-sizing: border-box;
+  width: 100%;
+  margin: 0;
+  border-top: 0.1em solid #b3b3b3;
+}

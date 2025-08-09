@@ -1,0 +1,22 @@
+.SidePanel {
+  position: relative;
+  right: 0;
+  display: none;
+  flex-direction: column;
+  gap: 0.5em;
+  width: 264px;
+  min-width: 264px;
+  max-width: 264px;
+  padding: 4em 1em 1em;
+  overflow-y: auto;
+  background-color: var(--background-color-default);
+  border-left: 1px solid rgb(0 0 0 / 25%);
+}
+
+.Visible {
+  display: flex;
+}
+
+.PreHide {
+  margin-left: -293px;
+}

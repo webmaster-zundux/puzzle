@@ -1,0 +1,7 @@
+.ChallengeStats {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5em;
+  justify-content: space-between;
+  width: 100%;
+}

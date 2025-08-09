@@ -1,0 +1,13 @@
+{
+  "recommendations": [
+    "stylelint.vscode-stylelint",
+    "editorconfig.editorconfig",
+    "esbenp.prettier-vscode",
+    "dbaeumer.vscode-eslint",
+    "ms-vscode.vscode-typescript-tslint-plugin",
+    "ms-playwright.playwright",
+    "gruntfuggly.todo-tree",
+    "wayou.vscode-todo-highlight",
+    "davidanson.vscode-markdownlint"
+  ]
+}

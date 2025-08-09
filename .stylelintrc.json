@@ -1,0 +1,11 @@
+{
+  "extends": ["stylelint-config-standard", "stylelint-config-recess-order"],
+  "rules": {
+    "selector-class-pattern": [
+      "^([A-Z][a-z0-9]*)([a-zA-Z0-9]+)*$",
+      {
+        "message": "Expected class selector to be PascalCase"
+      }
+    ]
+  }
+}

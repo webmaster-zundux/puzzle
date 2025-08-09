@@ -1,0 +1,160 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`src/__tests__/modals/modal.upload-image-from-device.test.tsx > modal dialog "upload an image from device" > changes it's visibility state > closes when clicking on "close" button: without dialog 1`] = `
+"Snapshot Diff:
+Compared values have no visual difference."
+`;
+
+exports[`src/__tests__/modals/modal.upload-image-from-device.test.tsx > modal dialog "upload an image from device" > changes it's visibility state > closes when clicking on the dialog backdrop: without dialog 1`] = `
+"Snapshot Diff:
+Compared values have no visual difference."
+`;
+
+exports[`src/__tests__/modals/modal.upload-image-from-device.test.tsx > modal dialog "upload an image from device" > changes it's visibility state > closes when pressing on "esc" key: without dialog 1`] = `
+"Snapshot Diff:
+Compared values have no visual difference."
+`;
+
+exports[`src/__tests__/modals/modal.upload-image-from-device.test.tsx > modal dialog "upload an image from device" > changes it's visibility state > opens when clicking on "upload an image from device" button in "choose method to create puzzle" dialog: "upload an image from device" dialog 1`] = `
+"Snapshot Diff:
+- without dialog
++ with dialog
+
+@@ -453,6 +453,136 @@
+            </div>
+          </div>
+        </aside>
+      </main>
+    </div>
++   <div>
++     <div
++       aria-label="Upload an image from device"
++       aria-modal="true"
++       class="_Dialog_9b989f _DialogAsDiv_9b989f"
++       role="dialog"
++     >
++       <div
++         class="_DialogBodyContainer_9b989f"
++       >
++         <div
++           aria-hidden="true"
++           aria-label="modal-backdrop"
++           class="_Backdrop_9b989f"
++         />
++         <div
++           class="_DialogBody_9b989f _WithCardForContent_9b989f"
++         >
++           <div
++             class="_CloseIcon_bea9a0"
++           >
++             <button
++               aria-label="close"
++               class="_ActionButton_b70b4c _NoBackground_b70b4c _NoBorder_b70b4c"
++               type="button"
++             >
++               <div
++                 class="_Icon_14488b _DoubleSize_14488b"
++                 data-src="/assets/fa-icons/xmark.svg"
++               >
++                 inline-svg-icon-mock
++               </div>
++             </button>
++           </div>
++           <div
++             class="_DialogContent_9b989f"
++           >
++             <div
++               class="_Content_a024cf"
++             >
++               <h3
++                 class="_Title_a024cf"
++               >
++                 Upload an image from device
++               </h3>
++               <div
++                 class="_MainContent_a024cf"
++               >
++                 <form
++                   class="_ImageFromFileForm_d51894"
++                 >
++                   <div
++                     class="_UploadFileField_d51894"
++                   >
++                     <label
++                       for="selected-image-to-upload"
++                     >
++                       Selected image:
++                     </label>
++                     <input
++                       accept="image/*"
++                       id="selected-image-to-upload"
++                       name="image"
++                       type="file"
++                     />
++                   </div>
++                   <button
++                     class="_UploadButton_d51894"
++                   >
++                     <div>
++                       Click to select an image
++                     </div>
++                     <div>
++                       or
++                     </div>
++                     <div>
++                       Drag and drop an image here
++                     </div>
++                     <div>
++                       or
++                     </div>
++                     <div>
++                       use 
++                       <span
++                         class="_HotKeyLabel_5c81b6"
++                       >
++                         <kbd>
++                           ctrl
++                         </kbd>
++                          + 
++                         <kbd>
++                           v
++                         </kbd>
++                       </span>
++                        
++                     </div>
++                     <em>
++                       (to paste an image from clipboard)
++                     </em>
++                   </button>
++                   <div
++                     aria-label="alternative way to load an image"
++                     class="_Note_51962b"
++                     role="note"
++                   >
++                     also you can 
++                     <a
++                       class="_NoteLink_edcc23"
++                       href="#"
++                     >
++                       load an image from a link
++                     </a>
++                      
++                     <br />
++                     or use one of 
++                     <a
++                       class="_NoteLink_edcc23"
++                       href="#"
++                     >
++                       demo images
++                     </a>
++                   </div>
++                 </form>
++               </div>
++             </div>
++           </div>
++         </div>
++       </div>
++     </div>
++   </div>
+  </DocumentFragment>"
+`;

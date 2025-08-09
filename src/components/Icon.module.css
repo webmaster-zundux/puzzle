@@ -1,0 +1,8 @@
+.Icon,
+.Icon > div {
+  display: flex;
+}
+
+.DoubleSize {
+  font-size: 1.2em;
+}

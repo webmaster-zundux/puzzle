@@ -1,0 +1,15 @@
+.ChoicesContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5em;
+}
+
+.ChoiceButtonGroup {
+  display: flex;
+  gap: 0.5em;
+}
+
+.ChoiceButtonContainer {
+  display: flex;
+  flex-direction: row;
+}

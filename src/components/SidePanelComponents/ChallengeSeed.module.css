@@ -1,0 +1,7 @@
+.SeedLabel {
+  display: flex;
+  flex-direction: column;
+  font-family: monospace;
+  font-size: 0.8em;
+  color: gray;
+}

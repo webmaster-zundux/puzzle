@@ -1,0 +1,12 @@
+.CloseIcon {
+  position: absolute;
+  top: 1em;
+  right: 1em;
+  font-size: 1.2em;
+  fill: var(--icon-color-default);
+}
+
+.CloseIcon:hover,
+.CloseIcon:active {
+  fill: var(--icon-color-hover);
+}

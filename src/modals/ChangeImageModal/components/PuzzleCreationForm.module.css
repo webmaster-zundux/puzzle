@@ -1,0 +1,280 @@
+.PreviewContainer {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5em;
+  width: fit-content;
+  max-width: 100%;
+  height: 100%;
+  max-height: 100%;
+  overflow: auto;
+}
+
+.FormActionButtons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5em;
+  justify-content: end;
+}
+
+.FormActionButtons.WithButtonGroups {
+  justify-content: space-between;
+}
+
+.FormFooter {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5em;
+  justify-content: end;
+}
+
+.PreviewContent {
+  display: flex;
+  flex-direction: row;
+  gap: 1em;
+  width: fit-content;
+  max-width: 100%;
+  height: 100%;
+  max-height: 100%;
+  overflow: auto;
+  border: 0.1em solid transparent;
+}
+
+.PreviewContent.VisibleTopBorder {
+  border-top-color: var(--border-color);
+}
+
+.PreviewContent.VisibleBottomBorder {
+  border-bottom-color: var(--border-color);
+}
+
+@media screen and (width < 960px) {
+  .PreviewContent {
+    flex-direction: column;
+    height: fit-content;
+    max-height: fit-content;
+    overflow: visible;
+  }
+}
+
+.SelectedZoneContainer {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5em;
+  width: auto;
+  height: auto;
+  max-height: 100%;
+  padding: 1.3em;
+  overflow: auto;
+  overflow: visible;
+}
+
+@media screen and (width< 768px) {
+  .SelectedZoneContainer {
+    overflow: visible;
+  }
+}
+
+.ImageContainer {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  max-width: fit-content;
+  height: auto;
+  min-height: 1em;
+  max-height: fit-content;
+  margin: 0 auto;
+}
+
+.ImageContainer.FitContent {
+  min-height: fit-content;
+}
+
+.ImagePreview {
+  position: relative;
+  width: auto;
+  max-width: 100%;
+  height: auto;
+  max-height: 100%;
+  user-select: none;
+  border: 0.1em solid #bdbdbd;
+  border-radius: var(--modal-dialog-card-border-radius);
+}
+
+.Row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.TotalNumberOfPieces {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0 0.3em;
+  justify-content: end;
+  font-size: 0.9em;
+}
+
+.TotalNumberOfPiecesLabel {
+  font-weight: 500;
+}
+
+.AttributesPanel {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  width: auto;
+  min-width: 21em;
+  max-width: 21em;
+  height: auto;
+  padding: 1em 0;
+  overflow: auto;
+}
+
+@media screen and (width < 960px) {
+  .AttributesPanel {
+    flex-direction: row;
+    width: 100%;
+    max-width: 100%;
+    padding: 0 1em;
+  }
+}
+
+@media screen and (width < 768px) {
+  .AttributesPanel {
+    flex-direction: column;
+    padding: 0;
+    overflow: visible;
+  }
+}
+
+.Shapes {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0;
+  justify-content: flex-start;
+}
+
+.Shapes > li > label > i {
+  width: 3em;
+  height: 3em;
+}
+
+.Shapes > li > label {
+  flex-wrap: wrap;
+  gap: 0;
+  width: auto;
+  height: auto;
+  padding: 0.5em;
+  font-size: 0.9em;
+  text-wrap: pretty;
+}
+
+.Shapes > li > label > label {
+  display: none;
+  text-transform: lowercase;
+}
+
+.Shapes > li > label > label::first-letter {
+  text-transform: capitalize;
+}
+
+.SizeList {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.25em;
+}
+
+.SizeListItem {
+  display: flex;
+}
+
+.SizeListItem button span {
+  font-size: 1em;
+}
+
+.FormFieldList {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+
+@media screen and (width < 768px) {
+  .FormFieldList {
+    flex-direction: column-reverse;
+  }
+}
+
+.FormField {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25em;
+}
+
+@media screen and (width < 960px) {
+  .FormField {
+    width: 100%;
+  }
+}
+
+.FormFieldName {
+  display: flex;
+  gap: 0.5em;
+  margin: 0;
+  font-size: 0.95em;
+  font-weight: 500;
+}
+
+.FormFieldSubName {
+  margin-top: 0.5em;
+  font-size: 0.9em;
+}
+
+.FormFieldInline {
+  display: flex;
+  flex-direction: row;
+  gap: 0.5em;
+  align-items: center;
+}
+
+.FormFieldinlineGroup {
+  display: flex;
+  flex-direction: row;
+  gap: 0.35em;
+  align-items: center;
+}
+
+.CrossSymbol {
+  height: 1.4em;
+  font-size: 0.83em;
+  font-weight: 500;
+}
+
+.FormSubField {
+  display: flex;
+  flex-direction: column;
+  gap: 0.1em;
+}
+
+.FormSubFieldName {
+  font-size: 0.85em;
+  text-align: center;
+}
+
+.FormFieldInput {
+  min-width: 3em;
+  max-width: 3em;
+  padding: 0.2em 0.5em;
+  text-align: center;
+  background-color: var(--form-element-background-color);
+  border: 1px solid var(--border-color);
+  border-radius: var(--border-radius);
+}
+
+.FormFieldNote {
+  font-size: 0.9em;
+  font-weight: 500;
+}

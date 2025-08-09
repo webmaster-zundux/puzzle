@@ -1,0 +1,33 @@
+.Container {
+  display: flex;
+  flex-direction: row;
+  gap: 0.5em;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.5em;
+  background-color: white;
+  border-radius: var(--small-info-panels-border-radius);
+}
+
+.Information {
+  display: flex;
+  flex-direction: row;
+  gap: 0.25em;
+}
+
+.Label {
+  color: gray;
+}
+
+.Value {
+  font-weight: 500;
+}
+
+.ZeroValue {
+  color: gray;
+}
+
+.ActionButtons {
+  display: flex;
+  gap: 0.25em;
+}

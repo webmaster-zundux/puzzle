@@ -1,0 +1,19 @@
+.ShapeIcon,
+.ShapeIcon > div,
+.ShapeIcon > div > svg {
+  position: relative;
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+
+.ShapeIcon > div > svg {
+  overflow: visible;
+}
+
+.ShapeIcon > div > svg > path {
+  fill: rgb(49 254 1) !important;
+  fill-opacity: 0.6 !important;
+  stroke: rgb(0 0 0) !important;
+  stroke-width: 0.003em !important;
+}

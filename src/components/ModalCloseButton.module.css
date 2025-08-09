@@ -1,0 +1,25 @@
+.CloseIcon {
+  position: absolute;
+  top: 0.2em;
+  right: 0.2em;
+  fill: var(--icon-color-default);
+}
+
+.CloseIconOutsideOfModalBody {
+  position: absolute;
+  top: 1em;
+  right: 1em;
+  fill: var(--icon-color-white);
+}
+
+.CloseIcon:hover,
+.CloseIcon:focus,
+.CloseIcon:active {
+  fill: var(--icon-color-hover-default);
+}
+
+.CloseIconOutsideOfModalBody:hover,
+.CloseIconOutsideOfModalBody:focus,
+.CloseIconOutsideOfModalBody:active {
+  fill: var(--icon-color-hover-white);
+}

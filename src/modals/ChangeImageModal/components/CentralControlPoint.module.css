@@ -1,0 +1,25 @@
+.CentralControlHandle {
+  width: 1.6em;
+  height: 1.6em;
+  fill: transparent;
+  transform: translate(-0.8em, -0.8em);
+}
+
+.CentralControlVisualMarker {
+  width: 1.6em;
+  height: 1.6em;
+  fill: transparent;
+  stroke: #7cf760;
+  stroke-width: 0.2em;
+  transform: translate(-0.8em, -0.8em);
+}
+
+.CentralControlContainer:hover .CentralControlVisualMarker,
+.CentralControlContainer.Active .CentralControlVisualMarker {
+  opacity: 0.5;
+  fill: #7cf760;
+}
+
+.CentralControlContainer.Central {
+  cursor: move;
+}

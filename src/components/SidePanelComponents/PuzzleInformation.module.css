@@ -1,0 +1,39 @@
+.PuzzleInformation {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25em;
+}
+
+.PuzzleName {
+  font-weight: 500;
+}
+
+.PuzzleName::first-letter {
+  text-transform: capitalize;
+}
+
+.PiecesInformation {
+  font-size: 0.9em;
+}
+
+.ImageContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 10em;
+}
+
+.Preview {
+  position: relative;
+  width: 100%;
+  max-width: fit-content;
+  height: auto;
+  max-height: 40vh;
+  border: 1px solid var(--border-color);
+  border-radius: var(--border-radius);
+}
+
+.AdditionalInformation {
+  display: flex;
+}

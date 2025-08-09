@@ -1,0 +1,33 @@
+.CornerControlHandle {
+  fill: transparent;
+  r: 0.6em;
+}
+
+.CornerControlVisualMarker {
+  fill: transparent;
+  stroke: #7cf760;
+  stroke-width: 0.2em;
+  r: 0.6em;
+}
+
+.CornerControlContainer:hover .CornerControlVisualMarker,
+.CornerControlContainer.Active .CornerControlVisualMarker {
+  opacity: 0.5;
+  fill: #7cf760;
+}
+
+.CornerControlContainer.TL {
+  cursor: nw-resize;
+}
+
+.CornerControlContainer.TR {
+  cursor: ne-resize;
+}
+
+.CornerControlContainer.BL {
+  cursor: sw-resize;
+}
+
+.CornerControlContainer.BR {
+  cursor: se-resize;
+}

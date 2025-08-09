@@ -1,0 +1,155 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`src/__tests__/modals/modal.choose-method-to-create-puzzle.test.tsx > modal dialog "choose method to create a puzzle" > changes it's visibility state > closes when clicking on "close" button: without dialog 1`] = `
+"Snapshot Diff:
+Compared values have no visual difference."
+`;
+
+exports[`src/__tests__/modals/modal.choose-method-to-create-puzzle.test.tsx > modal dialog "choose method to create a puzzle" > changes it's visibility state > closes when clicking on the dialog backdrop: without dialog 1`] = `
+"Snapshot Diff:
+Compared values have no visual difference."
+`;
+
+exports[`src/__tests__/modals/modal.choose-method-to-create-puzzle.test.tsx > modal dialog "choose method to create a puzzle" > changes it's visibility state > closes when pressing on "esc" key: without dialog 1`] = `
+"Snapshot Diff:
+Compared values have no visual difference."
+`;
+
+exports[`src/__tests__/modals/modal.choose-method-to-create-puzzle.test.tsx > modal dialog "choose method to create a puzzle" > changes it's visibility state > opens when clicking on "change image" button in the sidebar: "choose method to create a puzzle" dialog 1`] = `
+"Snapshot Diff:
+- without dialog
++ with dialog
+
+@@ -453,6 +453,131 @@
+            </div>
+          </div>
+        </aside>
+      </main>
+    </div>
++   <div>
++     <div
++       aria-label="Choose method to create a puzzle"
++       aria-modal="true"
++       class="_Dialog_9b989f _DialogAsDiv_9b989f"
++       role="dialog"
++     >
++       <div
++         class="_DialogBodyContainer_9b989f"
++       >
++         <div
++           aria-hidden="true"
++           aria-label="modal-backdrop"
++           class="_Backdrop_9b989f"
++         />
++         <div
++           class="_DialogBody_9b989f _WithCardForContent_9b989f"
++         >
++           <div
++             class="_CloseIcon_bea9a0"
++           >
++             <button
++               aria-label="close"
++               class="_ActionButton_b70b4c _NoBackground_b70b4c _NoBorder_b70b4c"
++               type="button"
++             >
++               <div
++                 class="_Icon_14488b _DoubleSize_14488b"
++                 data-src="/assets/fa-icons/xmark.svg"
++               >
++                 inline-svg-icon-mock
++               </div>
++             </button>
++           </div>
++           <div
++             class="_DialogContent_9b989f"
++           >
++             <div
++               class="_Content_a024cf"
++             >
++               <h3
++                 class="_Title_a024cf"
++               >
++                 Choose method to create a puzzle
++               </h3>
++               <div
++                 class="_MainContent_a024cf"
++               >
++                 <div
++                   class="_ChoicesContainer_8ac5fa"
++                 >
++                   <ul
++                     class="_ChoiceButtonGroup_8ac5fa"
++                   >
++                     <li
++                       class="_ChoiceButtonContainer_8ac5fa"
++                     >
++                       <button
++                         class="_ActionButton_b70b4c _PrimaryButton_b70b4c _FluidOnMobile_b70b4c"
++                         style="padding: 0.6em 2em; min-width: 11.5em; min-height: 11.5em; display: flex; flex-direction: column;"
++                         type="button"
++                       >
++                         <div>
++                           Upload an image from device
++                         </div>
++                         <div>
++                           or
++                         </div>
++                         <div>
++                           drag and drop an image here
++                         </div>
++                         <div>
++                           or
++                         </div>
++                         <span
++                           class="_HotKeyLabel_5c81b6"
++                         >
++                           use 
++                           <kbd>
++                             ctrl
++                           </kbd>
++                            + 
++                           <kbd>
++                             v
++                           </kbd>
++                         </span>
++                          
++                         <em>
++                           (to paste an image from clipboard)
++                         </em>
++                       </button>
++                     </li>
++                     <li
++                       class="_ChoiceButtonContainer_8ac5fa"
++                     >
++                       <button
++                         class="_ActionButton_b70b4c _FluidOnMobile_b70b4c"
++                         style="padding: 0.6em 2em; min-width: 11.5em; min-height: 11.5em; display: flex; flex-direction: column;"
++                         type="button"
++                       >
++                         Load an image from a link
++                       </button>
++                     </li>
++                   </ul>
++                   <div
++                     aria-label="alternative way to create a puzzle"
++                     class="_Note_51962b"
++                     role="note"
++                   >
++                     also you can use 
++                     <a
++                       class="_NoteLink_edcc23"
++                       href="#"
++                     >
++                       demo images
++                     </a>
++                   </div>
++                 </div>
++               </div>
++             </div>
++           </div>
++         </div>
++       </div>
++     </div>
++   </div>
+  </DocumentFragment>"
+`;

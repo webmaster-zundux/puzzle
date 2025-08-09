@@ -1,0 +1,34 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`src/__tests__/sidebar.test.tsx > sidebar > background color selector > changes the canvas background color when clicking on any not selected color 1`] = `
+"Snapshot Diff:
+- First value
++ Second value
+
+@@ -2,11 +2,11 @@
+    <div
+      class="_AppContainer_bf1bbc fullscreen"
+    >
+      <main
+        class="_App_bf1bbc"
+-       style="background-color: darkslategray;"
++       style="background-color: white;"
+      >
+        <div
+          class="_CanvasContainer_72d137"
+        >
+          <canvas
+@@ -17,11 +17,11 @@
+          />
+          <div
+            class="_FloatingInfoLabel_72d137"
+          >
+            <div
+-             class="_ZoomLabel_aa5be1"
++             class="_ZoomLabel_aa5be1 _TextForLightBackground_aa5be1"
+            >
+              <label
+                id="zoom-label"
+              >
+                zoom: "
+`;

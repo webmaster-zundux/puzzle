@@ -1,0 +1,49 @@
+.Field {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5em;
+  align-items: center;
+  width: 8em;
+  height: 11.5em;
+  padding: 1em;
+  font-size: 0.9em;
+  border: 0.2em solid transparent;
+  border-radius: 0.3em;
+}
+
+.Field:hover {
+  background: repeating-linear-gradient(135deg, transparent, transparent 1em, #a3c3e631 1em, #a3c3e631 2em);
+  border-color: #4c98e9;
+}
+
+.FieldActive {
+  background: repeating-linear-gradient(135deg, transparent, transparent 1em, #a3c3e650 1em, #a3c3e650 2em);
+  border-color: #1972d3;
+}
+
+.RadioOption {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  opacity: 0;
+}
+
+.RadioOptionIcon {
+  display: flex;
+  width: 5em;
+  height: 5em;
+}
+
+.RadioOptionLabel {
+  text-align: center;
+  text-transform: capitalize;
+}
+
+.Container {
+  display: flex;
+}

@@ -1,0 +1,91 @@
+.ActionButton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 2em;
+  min-height: 2em;
+  padding: 0;
+  margin: 0;
+  font-weight: normal;
+  color: var(--button-color-default);
+  background-color: var(--button-background-color-default);
+  border: 1px solid var(--border-color);
+  border-radius: 0.2em;
+}
+
+.ActionButton.FluidOnMobile {
+  flex-grow: 1;
+  width: var(--fluid-button-width);
+}
+
+.ActionButtonText {
+  font-weight: 600;
+  line-height: 1em;
+}
+
+.DoubleSized {
+  min-width: 2.8em;
+  min-height: 2.8em;
+}
+
+.ModalActionButton {
+  min-width: 8em;
+  padding: 0.2em 1em;
+}
+
+.SidebarActionButton {
+  width: fit-content;
+  min-height: fit-content;
+  padding: 0.2em 1em;
+}
+
+@media screen and (width <=479px) {
+  .ModalActionButton,
+  .SidebarActionButton {
+    padding: 0.2em 0.5em;
+  }
+}
+
+.ActionButton.NoBackground {
+  background: none !important;
+}
+
+.ActionButton.NoBorder {
+  border: transparent !important;
+}
+
+.ActionButton:hover,
+.ActionButton:focus-visible {
+  background-color: var(--button-hover-background-color-default);
+}
+
+.ActionButton:active {
+  background-color: var(--button-active-background-color-default);
+}
+
+.ActionButton.PrimaryButton {
+  color: var(--primary-button-color-default);
+  background-color: var(--primary-button-background-color-default);
+}
+
+.ActionButton.PrimaryButton:hover,
+.ActionButton.PrimaryButton:focus-visible {
+  background-color: var(--primary-button-hover-background-color-default);
+}
+
+.ActionButton.PrimaryButton:active {
+  background-color: var(--primary-button-active-background-color-default);
+}
+
+.ActionButton.ActiveButton {
+  background-color: var(--button-active-background-color-default);
+}
+
+.ActionButton[disabled],
+.ActionButton[disabled]:hover,
+.ActionButton[disabled]:focus-visible,
+.ActionButton[disabled]:active {
+  background-color: var(--button-background-color-default);
+  border-color: #cbcbcb;
+  fill: #555;
+}
