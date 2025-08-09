@@ -17,7 +17,7 @@ type DemoPuzzleParams = Required<
 
 export const DEMO_IMAGES_PUZZLE_PARAMS: DemoPuzzleParams[] = [
   {
-    imageSrc: "/demo-images/demo-image-1920x1080.png",
+    imageSrc: `${import.meta.env.BASE_URL}demo-images/demo-image-1920x1080.png`,
     numberOfPiecesPerWidth: 7,
     numberOfPiecesPerHeight: 4,
     boundaryPoints: {
@@ -26,7 +26,7 @@ export const DEMO_IMAGES_PUZZLE_PARAMS: DemoPuzzleParams[] = [
     },
   },
   {
-    imageSrc: "/demo-images/demo-image-1080x1920.png",
+    imageSrc: `${import.meta.env.BASE_URL}demo-images/demo-image-1080x1920.png`,
     numberOfPiecesPerWidth: 4,
     numberOfPiecesPerHeight: 7,
     boundaryPoints: {

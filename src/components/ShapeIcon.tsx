@@ -34,7 +34,7 @@ export const ShapeIcon = memo(function ShapeIcon({
   ...restProps
 }: ShapeIconProps) {
   const iconName = ICON_PIECE_SHAPE_NAMES[shapeName] ?? ICON_PIECE_SHAPE_NAMES.STRAIGHT_LINE;
-  const shapeIconPath = `/assets/shape-icons/icon-shape-${iconName}.svg`;
+  const shapeIconPath = `${import.meta.env.BASE_URL}assets/shape-icons/icon-shape-${iconName}.svg`;
 
   return <ReactSVG className={s.ShapeIcon} src={shapeIconPath} {...restProps} />;
 });

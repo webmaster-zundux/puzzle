@@ -25,7 +25,7 @@ export interface IconProps {
 }
 
 export const Icon = memo(function Icon({ iconName = "xmark", size, ...restProps }: IconProps) {
-  const iconPath = `/assets/fa-icons/${iconName}.svg`;
+  const iconPath = `${import.meta.env.BASE_URL}assets/fa-icons/${iconName}.svg`;
 
   const className = cn([s.Icon, size === "double" && s.DoubleSize]);
 
