@@ -104,7 +104,7 @@ export const compress = async (
     const gitDirectory = ".git";
 
     let ignoreRules = ["*.zip", "**/*-snapshots/**/*.png"];
-    let ignoreFolderRules = ["**/playwright-report", "**/test-results", "**/.ssl", "**/dist", '**/build', "**/coverage"];
+    let ignoreFolderRules = ["**/playwright-report", "**/test-results", "**/.ssl", "**/dist", '**/build', '**/docs', "**/coverage"];
 
     if (!withNodeModulesDirectory) {
       ignoreFolderRules.push(nodeModulesDirectory);
