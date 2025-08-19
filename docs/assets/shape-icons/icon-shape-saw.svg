@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg viewBox="0 0 1 1" width="250" height="250" xmlns="http://www.w3.org/2000/svg">
+  <path 
+  style="stroke: rgb(0, 0, 0); fill: rgb(49, 254, 1); fill-opacity: 0.6; stroke-width: 0.1px; transform-origin: 0.5px 0.5px; transform: scale(0.7);" 
+   d="m 0 0 l 0.212 0.179 l 0.18 -0.304 l 0.172 0 l 0.081 0.125 l 0.087 -0.13 l 0.091 0.13 l 0.177 0 l 0.179 0.212 l -0.304 0.18 l 0 0.172 l 0.125 0.081 l -0.13 0.087 l 0.13 0.091 l 0 0.177 l -0.212 -0.179 l -0.18 0.304 l -0.172 0 l -0.081 -0.125 l -0.087 0.13 l -0.091 -0.13 l -0.177 0 l -0.179 -0.212 l 0.304 -0.18 l -0 -0.172 l -0.125 -0.081 l 0.13 -0.087 l -0.13 -0.091 l -0 -0.177z"/>
+</svg>

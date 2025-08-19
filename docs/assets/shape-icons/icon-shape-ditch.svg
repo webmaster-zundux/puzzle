@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg viewBox="0 0 1 1" width="250" height="250" xmlns="http://www.w3.org/2000/svg">
+  <path style="stroke: rgb(0, 0, 0); fill: rgb(49, 254, 1); fill-opacity: 0.6; stroke-width: 0.1px; transform-origin: 0.5px 0.5px; transform: scale(0.7);" d="m0 0 .238-0 .114.127c0 0 .147.001.295 0l.114-.127.238 0 0 .238.127.114c.001.148 0 .295 0 .295l-.127.114 0 .238-.238-0-.114-.127c0 0-.148-.001-.295 0l-.114.127-.238 0-0-.238-.127-.114c-.001-.148 0-.295 0-.295l.127-.114 0-.238z"></path>
+</svg>
