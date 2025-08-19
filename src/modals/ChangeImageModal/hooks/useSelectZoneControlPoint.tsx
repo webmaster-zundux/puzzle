@@ -297,11 +297,13 @@ export function useSelectZoneControlPoint({
         console.error("unknown control point");
       };
 
-      const handleTouchEndOrMouseUp = (_event: unknown) => {
+      const handleTouchEndOrMouseUp = (event: MouseEvent | TouchEvent) => {
+        event.preventDefault()
         setSelectedControlPointName(undefined);
       };
 
-      const handleTouchCancelOrMouseLeaveBodyElement = (_event: unknown) => {
+      const handleTouchCancelOrMouseLeaveBodyElement = (event: MouseEvent | TouchEvent) => {
+        event.preventDefault()
         setSelectedControlPointName(undefined);
 
         if (selectedControlPointName) {

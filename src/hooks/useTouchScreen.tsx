@@ -36,18 +36,21 @@ export const useTouchScreen = ({
     let hasTouch = false;
 
     const handleTouchStart = (event: TouchEvent): void => {
+      event.preventDefault()
       setTouchPositionFromEvent(event, element);
       setHasTouch(true);
       hasTouch = true;
     };
 
     const handleTouchEnd = (event: TouchEvent): void => {
+      event.preventDefault()
       setTouchPositionFromEvent(event, element);
       setHasTouch(false);
       hasTouch = false;
     };
 
     const handleTouchCancel = (event: TouchEvent) => {
+      event.preventDefault()
       if (!hasTouch) {
         return;
       }
@@ -57,6 +60,7 @@ export const useTouchScreen = ({
     };
 
     const handleTouchMove = (event: TouchEvent): void => {
+      event.preventDefault()
       const element = elementRef?.current;
       if (!element) {
         return;

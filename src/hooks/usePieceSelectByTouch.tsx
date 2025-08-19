@@ -24,6 +24,7 @@ export const usePieceSelectByTouch = ({
 
   const handleTouchStart = useCallback(
     (event: TouchEvent): void => {
+      event.preventDefault()
       const element = elementRef?.current;
       if (!element) {
         return;
@@ -52,7 +53,8 @@ export const usePieceSelectByTouch = ({
   );
 
   const handleTouchEnd = useCallback(
-    (_event: TouchEvent): void => {
+    (event: TouchEvent): void => {
+      event.preventDefault()
       setSelectedPiece(undefined);
 
       const puzzle = puzzleRef?.current;
@@ -66,7 +68,8 @@ export const usePieceSelectByTouch = ({
   );
 
   const handleTouchCancel = useCallback(
-    (_event: TouchEvent) => {
+    (event: TouchEvent) => {
+      event.preventDefault()
       setSelectedPiece(undefined);
 
       const puzzle = puzzleRef?.current;
