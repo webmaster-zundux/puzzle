@@ -73,7 +73,7 @@ export const useTouchScreen = ({
       setTouchPositionFromEvent(event, element);
     };
 
-    const touchEventListenerOptions: Parameters<typeof addEventListener>[2] = { passive: true };
+    const touchEventListenerOptions: Parameters<typeof addEventListener>[2] = { passive: false };
     element.addEventListener("touchstart", handleTouchStart, touchEventListenerOptions);
     element.addEventListener("touchend", handleTouchEnd, touchEventListenerOptions);
     element.addEventListener("touchcancel", handleTouchCancel, touchEventListenerOptions);
