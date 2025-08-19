@@ -11,6 +11,7 @@
     "build": "vite build",
     "create-gh-pages-release": "git branch -D gh-pages && git checkout -b gh-pages",
     "build:gh-pages": "cp .env.production.gh-pages .env && vite build && rm -rf docs && cp -r dist docs && git add docs -f",
+    "publish-gh-pages-release" : "git push --set-upstream origin gh-pages -f",
     "build:with-type-safe": "tsc && vite build",
     "preview": "vite preview",
     "preview-coverage": "vite preview -c vite-coverage-preview.config.ts",
